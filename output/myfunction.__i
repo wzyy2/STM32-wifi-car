@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\DEMO_STM32F4 -I.\Sturup -I.\User -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\ST\STM32F4xx\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\MyLibaries 
+-I c:\Keil\ARM\RV31\INC 
+-I c:\Keil\ARM\CMSIS\Include 
+-I c:\Keil\ARM\Inc\ST\STM32F4xx 
+-DUSE_STDPERIPH_DRIVER -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM -o ".\output\myfunction.o" --omf_browse ".\output\myfunction.crf" --depend ".\output\myfunction.d" "MyLibaries\MyFunction.c"

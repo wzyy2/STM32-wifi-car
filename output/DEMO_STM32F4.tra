@@ -1,0 +1,60 @@
+*** Creating Trace Output File '.\output\DEMO_STM32F4.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\stm32f4xx_it.o"'
+### List of Objects: adding '".\output\system_stm32f4xx.o"'
+### List of Objects: adding '".\output\dcmi_ov7620.o"'
+### List of Objects: adding '".\output\5110.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f4xx_adc.o"'
+### List of Objects: adding '".\output\stm32f4xx_can.o"'
+### List of Objects: adding '".\output\stm32f4xx_crc.o"'
+### List of Objects: adding '".\output\stm32f4xx_cryp.o"'
+### List of Objects: adding '".\output\stm32f4xx_cryp_aes.o"'
+### List of Objects: adding '".\output\stm32f4xx_cryp_des.o"'
+### List of Objects: adding '".\output\stm32f4xx_cryp_tdes.o"'
+### List of Objects: adding '".\output\stm32f4xx_dac.o"'
+### List of Objects: adding '".\output\stm32f4xx_dbgmcu.o"'
+### List of Objects: adding '".\output\stm32f4xx_dcmi.o"'
+### List of Objects: adding '".\output\stm32f4xx_dma.o"'
+### List of Objects: adding '".\output\stm32f4xx_exti.o"'
+### List of Objects: adding '".\output\stm32f4xx_flash.o"'
+### List of Objects: adding '".\output\stm32f4xx_fsmc.o"'
+### List of Objects: adding '".\output\stm32f4xx_gpio.o"'
+### List of Objects: adding '".\output\stm32f4xx_hash.o"'
+### List of Objects: adding '".\output\stm32f4xx_hash_md5.o"'
+### List of Objects: adding '".\output\stm32f4xx_hash_sha1.o"'
+### List of Objects: adding '".\output\stm32f4xx_i2c.o"'
+### List of Objects: adding '".\output\stm32f4xx_iwdg.o"'
+### List of Objects: adding '".\output\stm32f4xx_pwr.o"'
+### List of Objects: adding '".\output\stm32f4xx_rcc.o"'
+### List of Objects: adding '".\output\stm32f4xx_rng.o"'
+### List of Objects: adding '".\output\stm32f4xx_rtc.o"'
+### List of Objects: adding '".\output\stm32f4xx_sdio.o"'
+### List of Objects: adding '".\output\stm32f4xx_spi.o"'
+### List of Objects: adding '".\output\stm32f4xx_syscfg.o"'
+### List of Objects: adding '".\output\stm32f4xx_tim.o"'
+### List of Objects: adding '".\output\stm32f4xx_usart.o"'
+### List of Objects: adding '".\output\stm32f4xx_wwdg.o"'
+### List of Objects: adding '".\output\startup_stm32f4xx.o"'
+### List of Objects: adding '".\output\myfunction.o"'
+### List of Objects: adding '".\output\led.o"'
+### List of Objects: adding '".\output\system_config.o"'
+### List of Objects: adding '".\output\usart_config.o"'
+### List of Objects: adding '".\output\key.o"'
+### List of Objects: adding '".\output\wifi.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\output\main.o" ".\output\stm32f4xx_it.o" ".\output\system_stm32f4xx.o" ".\output\dcmi_ov7620.o" ".\output\5110.o" ".\output\misc.o" ".\output\stm32f4xx_adc.o" ".\output\stm32f4xx_can.o" ".\output\stm32f4xx_crc.o" ".\output\stm32f4xx_cryp.o" ".\output\stm32f4xx_cryp_aes.o" ".\output\stm32f4xx_cryp_des.o" ".\output\stm32f4xx_cryp_tdes.o" ".\output\stm32f4xx_dac.o" ".\output\stm32f4xx_dbgmcu.o" ".\output\stm32f4xx_dcmi.o" ".\output\stm32f4xx_dma.o" ".\output\stm32f4xx_exti.o" ".\output\stm32f4xx_flash.o" ".\output\stm32f4xx_fsmc.o" ".\output\stm32f4xx_gpio.o" ".\output\stm32f4xx_hash.o" ".\output\stm32f4xx_hash_md5.o" ".\output\stm32f4xx_hash_sha1.o" ".\output\stm32f4xx_i2c.o" ".\output\stm32f4xx_iwdg.o" ".\output\stm32f4xx_pwr.o" ".\output\stm32f4xx_rcc.o" ".\output\stm32f4xx_rng.o" ".\output\stm32f4xx_rtc.o" ".\output\stm32f4xx_sdio.o" ".\output\stm32f4xx_spi.o" ".\output\stm32f4xx_syscfg.o" ".\output\stm32f4xx_tim.o" ".\output\stm32f4xx_usart.o" ".\output\stm32f4xx_wwdg.o" ".\output\startup_stm32f4xx.o" ".\output\myfunction.o" ".\output\led.o" ".\output\system_config.o" ".\output\usart_config.o" ".\output\key.o" ".\output\wifi.o" 
+--library_type=microlib --strict --scatter ".\output\DEMO_STM32F4.sct" 
+--summary_stderr --info summarysizes -o .\output\DEMO_STM32F4.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\DEMO_STM32F4.axf'
+### ADS-LD Command File: '.\output\DEMO_STM32F4.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\DEMO_STM32F4.lnp', Handle=0x00000428
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\DEMO_STM32F4.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

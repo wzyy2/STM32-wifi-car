@@ -1,0 +1,72 @@
+DMA_DeInit(DMA1_Stream6);
+    Deinitialize the DMAy Streamx registers to their default reset values. 
+	Deinitialize DMAy Streamx寄存器默认的复位值。
+	
+DMA_InitStructure.DMA_PeripheralBaseAddr
+    Specifies the peripheral base address for DMAy Streamx. 
+	指定外设基地址为DMAy Streamx 。
+	
+DMA_InitStructure.DMA_MemoryBaseAddr
+   Specifies the memory 0 base address for DMAy Streamx.This memory is
+the default memory used when double buffer mode is not enabled. 
+   指定的存储器0的基地址为DMAy Streamx 。内存是默认的内存使用双缓冲模式时，不启用。
+   
+DMA_InitStructure.DMA_DIR
+   Specifies if the data will be transferred from memory to peripheral,
+from memory to memory or from peripheral to memory. 
+   指定将被转移的数据从存储器到外设.
+   DMA_DIR_PeripheralToMemory : 外设到内存
+   DMA_DIR_MemoryToPeripheral ：内存到外设
+   DMA_DIR_MemoryToMemory ：内存到内存
+   
+DMA_InitStructure.DMA_BfferSize
+   Specifies the buffer size, in data unit, of the specified Stream. The data unit
+is equal to the configuration set in DMA_PeripheralDataSize or DMA_MemoryDataSize 
+members depending in the transfer direction. 
+   指定的缓冲区大小，在数据单元中，指定的Stream 。数据单元是等于在DMA_PeripheralDataSize
+或DMA_MemoryDataSize成员取决于在传送方向的配置集。
+
+DMA_InitStructure.DMA_PeripheralInc
+   Specifies whether the Peripheral address register should be incremented or not.
+   指定的外设地址寄存器是否应该增加或不变。
+   DMA_PeripheralInc_Enable    ：递增
+   DMA_PeripheralInc_Disable   ：不变
+
+DMA_InitStructure.DMA_MemoryInc
+   Specifies whether the memory address register should be incremented or not. 
+   指定的内存地址寄存器是否应该增加或不变。
+   DMA_MemoryInc_Enable    ：递增 
+   DMA_MemoryInc_Disable   ：不变
+
+DMA_InitStructure.DMA_DMA_peripheraldatasize
+   Specifies the Peripheral data width. 
+   指定外设的数据宽度。
+   DMA_PeripheralDataSize_Byte     ：8位
+   DMA_PeripheralDataSize_HalfWord ：16位    
+   DMA_PeripheralDataSize_Word     ：32位
+
+ DMA_InitStructure.DMA_MemoryDataSize
+   Specifies the Memory data width. 
+   指定内存数据宽度。
+   DMA_MemoryDataSize_Byte      ：8位
+   DMA_MemoryDataSize_HalfWord  ：16位        
+   DMA_MemoryDataSize_Word      ：32位
+DMA_InitStructure.DMA_Mode
+   Specifies the operation mode of the DMAy Streamx. 
+   指定操作模式的DMAy Streamx的。
+   DMA_Mode_Normal    ：工作在循环缓存模式
+   DMA_Mode_Circular  ：工作在正常缓存模式
+
+DMA_InitStructure.DMA_Priority
+   Specifies the software priority for the DMAy Streamx. 
+   设定DMA通道X的优先级
+   DMA_Priority_Low       : 低优先级
+   DMA_Priority_Medium    : 中优先级
+   DMA_Priority_High      : 高优先级
+   DMA_Priority_VeryHigh  : 最高优先级
+
+  
+   
+   
+   
+   
